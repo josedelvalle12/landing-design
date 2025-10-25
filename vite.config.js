@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/landing-service/',
+  base: process.env.NODE_ENV === 'production' ? '/landing-service/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
