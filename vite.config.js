@@ -8,4 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/landing-service/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  }
 })
