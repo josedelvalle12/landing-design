@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+* {
+  cursor: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide custom cursor on small devices for usability */
+@media (max-width: 768px) {
+  * {
+    cursor: auto;
+  }
+}
