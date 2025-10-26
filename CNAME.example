@@ -1,0 +1,5 @@
+# Para usar un dominio personalizado, crea un archivo CNAME en la carpeta public/
+# y agrega tu dominio aquí:
+# ejemplo: mi-dominio.com
+
+# Este archivo se copiará automáticamente al build
